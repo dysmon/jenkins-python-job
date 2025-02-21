@@ -1,4 +1,4 @@
-# Jenkins with Python Integration
+# Jenkins in Docker with Python Integration
 
 This project sets up a Jenkins container with Python installed, allowing Python scripts to run within Jenkins jobs.
 
