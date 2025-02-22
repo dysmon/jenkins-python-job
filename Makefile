@@ -21,6 +21,8 @@ restart:
 
 remove: stop
 	docker rm $(CONTAINER_NAME)
+clean: 
+	docker container prune -f
 
 logs:
 	docker logs -f $(CONTAINER_NAME)
